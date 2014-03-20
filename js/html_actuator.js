@@ -3,9 +3,12 @@ function HTMLActuator() {
   this.scoreContainer   = document.querySelector(".score-container");
   this.bestContainer    = document.querySelector(".best-container");
   this.messageContainer = document.querySelector(".game-message");
-
+  this.shrekContainer = document.querySelector(".shrek")
   this.score = 0;
 }
+
+var shrekSayings = ['Ogres are like Onions', 'this is my Swamp', 'Shrek is love', 'Shrek is life', 'check urself before u Shrek urself', "get Shrek'd",];
+
 
 HTMLActuator.prototype.actuate = function (grid, metadata) {
   var self = this;
@@ -62,7 +65,6 @@ HTMLActuator.prototype.addTile = function (tile) {
   this.applyClasses(wrapper, classes);
 
   inner.classList.add("tile-inner");
-  inner.textContent = tile.value;
 
   if (tile.previousPosition) {
     // Make sure that the tile gets rendered in the previous position first
@@ -105,6 +107,7 @@ HTMLActuator.prototype.positionClass = function (position) {
 
 HTMLActuator.prototype.updateScore = function (score) {
   this.clearContainer(this.scoreContainer);
+  this.clearContainer(this.shrekContainer);
 
   var difference = score - this.score;
   this.score = score;
@@ -117,6 +120,17 @@ HTMLActuator.prototype.updateScore = function (score) {
     addition.textContent = "+" + difference;
 
     this.scoreContainer.appendChild(addition);
+
+    var message = shrekSayings[Math.floor(Math.random() * shrekSayings.length)]
+    var messageElement = document.createElement("p");
+    messageElement.textContent = message
+    var left = 'left:' + Math.round(Math.random() * 80) + '%;'
+    var top = 'top:' + Math.round(Math.random() * 80) + '%;'
+    //var color = 'color: rgb(' + Math.round(Math.random() * 255) + ', ' + Math.round(Math.random() * 255) + ', ' + Math.round(Math.random() * 255) + ');'
+    var styleString = left + top;
+    messageElement.setAttribute('style', styleString);
+    this.shrekContainer.appendChild(messageElement);
+
   }
 };
 
@@ -126,7 +140,7 @@ HTMLActuator.prototype.updateBestScore = function (bestScore) {
 
 HTMLActuator.prototype.message = function (won) {
   var type    = won ? "game-won" : "game-over";
-  var message = won ? "You win!" : "Game over!";
+  var message = won ? "Shrektacular. you won" : "you got Shrek'd";
 
   this.messageContainer.classList.add(type);
   this.messageContainer.getElementsByTagName("p")[0].textContent = message;
