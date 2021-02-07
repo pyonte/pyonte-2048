@@ -1,14 +1,14 @@
-# pyonte 2048
-A clone of 2048 with added pyonte.
+# Ikeda 2048
+A clone of 2048 with added Ikeda.
 
 #Original
 [2048](https://github.com/gabrielecirulli/2048)
 
 [Shrek 2048](https://github.com/Omegablaster/Shrek-2048)
 
-#hecchunhepuchu hecchuchunhecchu muchichimuchi ?
-shiran
+#Ikeda
+This is reality of img. Try hard next time...
 
 ## License
-pyonte 2048 is licensed under the [MIT license.](https://github.com/gabrielecirulli/2048/blob/master/LICENSE.txt)
+Ikeda 2048 is licensed under the [MIT license.](https://github.com/gabrielecirulli/2048/blob/master/LICENSE.txt)
 
