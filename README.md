@@ -1,7 +1,14 @@
-# Shrek 2048
+# Iyonte 2048
+A clone of 2048 with added pyonte.
 
-A clone of 2048 with added Shrek.
+#Original
+[2048](https://github.com/gabrielecirulli/2048)
+
+[Shrek 2048](https://github.com/Omegablaster/Shrek-2048)
+
+#ヘッチュンヘプチュ ヘッチュチュンヘッチュ ムチチムチ? 
+しらん
 
 ## License
-Shrek 2048 is licensed under the [MIT license.](https://github.com/gabrielecirulli/2048/blob/master/LICENSE.txt)
+pyonte 2048 is licensed under the [MIT license.](https://github.com/gabrielecirulli/2048/blob/master/LICENSE.txt)
 
