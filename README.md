@@ -1,4 +1,4 @@
-# Iyonte 2048
+# pyonte 2048
 A clone of 2048 with added pyonte.
 
 #Original
