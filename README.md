@@ -6,8 +6,8 @@ A clone of 2048 with added pyonte.
 
 [Shrek 2048](https://github.com/Omegablaster/Shrek-2048)
 
-#ヘッチュンヘプチュ ヘッチュチュンヘッチュ ムチチムチ? 
-しらん
+#hecchunhepuchu hecchuchunhecchu muchichimuchi ?
+shiran
 
 ## License
 pyonte 2048 is licensed under the [MIT license.](https://github.com/gabrielecirulli/2048/blob/master/LICENSE.txt)
