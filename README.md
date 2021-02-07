@@ -8,7 +8,6 @@ A clone of 2048 with added pyonte.
 
 #hecchunhepuchu hecchuchunhecchu muchichimuchi ?
 
-
 shiran
 
 ## License
