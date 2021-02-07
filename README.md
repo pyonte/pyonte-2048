@@ -7,7 +7,6 @@ A clone of 2048 with added pyonte.
 [Shrek 2048](https://github.com/Omegablaster/Shrek-2048)
 
 #hecchunhepuchu hecchuchunhecchu muchichimuchi ?
-
 shiran
 
 ## License
